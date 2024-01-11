@@ -1,0 +1,11 @@
+.allCardsViewPageBody {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    place-items: center;
+    row-gap: 20px;
+}
+
+.catagoryOnViewAll {
+    margin: 10px 40px;
+}

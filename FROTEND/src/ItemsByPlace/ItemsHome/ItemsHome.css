@@ -1,0 +1,86 @@
+.placePicAndDescription {
+    margin: 6vh 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh
+}
+
+.placeImage {
+    height: 35vh;
+    border-radius: 30vw;
+    width: 17vw;
+}
+
+.selectedPlaceDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.placeDescription {
+    width: 20vw;
+    text-align: center;
+}
+
+.cardGridNavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid grey;
+}
+
+.cardGridNavbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.catagoryAndDatePicker {
+    display: flex;
+    width: 50vw;
+    height: 15vh;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+
+
+.datePicker {
+    width: 17vw;
+    font-size: 10px;
+}
+
+.searchItemBar {
+    width: 20vw;
+}
+
+.select {
+    width: 15vw;
+}
+
+.cardGridNavBar div {
+    margin: 2vh 2vw;
+}
+
+.itemsHomeFooter {
+    background-color: rgb(65, 36, 91);
+    color: white;
+    height: 30vh;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.footerContent {
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+    align-items: center;
+
+}

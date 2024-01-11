@@ -1,0 +1,74 @@
+.cardBody {
+    background-color: #49386b50;
+    height: 55vh;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 3px;
+}
+
+.cardFrame {
+    margin: 2%;
+    height: 23%;
+    width: 96%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cardDetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vh;
+    margin-bottom: 3vh;
+
+}
+
+.cardImage {
+    height: 76%;
+    width: 100%;
+}
+
+
+
+#product-image {
+    border-radius: 3px 3px 0 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+.cardTitle {
+    font-size: 4vh;
+    font-weight: 720;
+}
+
+
+
+.claimButtonArea {
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#claim-button {
+    padding: 1vh 3vh;
+    background-color: #49386b !important;
+}
+
+@media only screen and (max-width:400px) {
+    .cardBody {
+        width: 80vw;
+    }
+}

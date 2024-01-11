@@ -1,0 +1,72 @@
+.navBarBody {
+    background-color: #49386b;
+    height: 10vh;
+
+}
+
+#navBar-heading {
+    font-weight: 600;
+
+}
+
+.navBarContent {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBarItems {
+    color: white;
+    margin: 0 2vw 0 2vw;
+}
+
+#navBar-heading {
+    font-size: 6vh;
+}
+
+#logo {
+    font-size: 4vh;
+
+}
+
+#about-us {
+    font-size: 4vh;
+
+}
+
+.aboutUsButton {
+    border: 0;
+    padding: 2vh;
+    border-radius: 4px;
+    margin: 2px;
+    transition: all 0.3s;
+    background-color: rgba(0, 145, 255, 0.749);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.aboutUsButton:hover {
+    padding: 2.4vh;
+
+
+}
+
+@media only screen and (max-width:400px) {
+    #navBar-heading {
+
+        font-size: 3.6vh;
+    }
+
+    .aboutUsButton {
+        height: 7vh;
+        padding: 1vh;
+    }
+
+    #logo {
+        font-size: 3.6vh;
+
+    }
+
+}

@@ -1,0 +1,44 @@
+.formBody {
+    /* border: 2px solid red; */
+    width: 30vw;
+    padding: 4vh;
+    height: 103vh;
+    border-radius: 5px;
+    background-color: rgb(214, 218, 241);
+}
+
+
+
+.claimFormHeading {
+    color: rgb(33, 65, 134);
+    margin: 0;
+}
+
+.InputFieldArea {
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh
+}
+
+.InputFieldArea div {
+    width: 100%;
+}
+
+#cancel-button {
+    background-color: rgb(141, 31, 31);
+}
+
+
+
+.actionButtons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.policyStatement {
+    color: red;
+}

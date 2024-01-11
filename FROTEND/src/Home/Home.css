@@ -1,0 +1,54 @@
+.HomePageBody {
+    width: 94vw;
+    margin: 0 1vw;
+
+}
+
+.cardHome {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    place-items: center;
+    background-color: rgb(221, 221, 221);
+}
+
+.listedPlaces {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.placeCardName {
+    cursor: pointer;
+    text-align: center;
+    color: rgb(33, 33, 139);
+}
+
+.p1 {
+    cursor: pointer;
+    height: 30vh;
+    width: 14vw;
+    border-radius: 50vh;
+}
+
+.HomePageHeading {
+    margin-bottom: 0;
+    color: rgb(44, 44, 115);
+}
+
+.underLine {
+    height: 4px;
+    width: 20vw;
+    background-color: red;
+    margin-left: 0;
+}
+
+h2 {
+    color: rgb(110, 59, 128);
+}
+
+@media only screen and (max-width:400px) {
+    .cardHome {
+        grid-template-columns: 1fr;
+    }
+}
